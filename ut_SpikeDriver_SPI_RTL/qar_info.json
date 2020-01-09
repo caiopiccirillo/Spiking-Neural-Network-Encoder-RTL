@@ -1,0 +1,7 @@
+{
+	"common_dir" : "E:/FPGA_prjs/ut_SpikeDriver_SPI_02/",
+	"acds_version" : "Version 18.0.0",
+	"platform" : "windows",
+	"os" : "Windows 10",
+	"qpf" : "ut_SpikeDriver_SPI.qpf"
+}

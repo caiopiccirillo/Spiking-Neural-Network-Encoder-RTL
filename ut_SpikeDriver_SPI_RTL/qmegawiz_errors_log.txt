@@ -1,0 +1,6 @@
+
+
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll.v
+
+May 10 09AM:54:59>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

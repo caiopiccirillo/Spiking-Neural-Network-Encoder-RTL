@@ -1,0 +1,265 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "lmiso",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[7]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[8]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[9]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[10]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[11]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[12]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[13]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[14]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[15]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[16]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[17]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[18]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[19]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[20]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[21]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[22]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[23]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[24]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[25]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[26]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[27]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[28]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[29]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[30]",
+					"strict" : false
+				},
+				{
+					"name" : "FOut[31]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[0]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[1]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[4]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[5]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[8]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[9]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[10]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[11]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[12]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[13]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[16]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[17]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[18]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[19]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[20]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[21]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[22]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[23]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[24]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[25]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[26]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[27]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[28]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[29]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[30]",
+					"strict" : false
+				},
+				{
+					"name" : "TestPoint[31]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lsck",
+					"strict" : false
+				},
+				{
+					"name" : "lnss",
+					"strict" : false
+				},
+				{
+					"name" : "nreset",
+					"strict" : false
+				},
+				{
+					"name" : "lmosi",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

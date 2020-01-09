@@ -1,0 +1,97 @@
+Restore Archived Project report for ut_SpikeDriver_SPI
+Thu May 09 15:30:55 2019
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu May 09 15:30:55 2019 ;
+; Revision Name                   ; ut_SpikeDriver_SPI                    ;
+; Top-level Entity Name           ; ut_SpikeDriver_SPI                    ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'E:/FPGA_prjs/ut_SpikeDriver_SPI_02/ut_SpikeDriver_SPI_tmp_archive.qar' into the 'E:/FPGA_prjs/ut_SpikeDriver_SPI_03/' directory
+Info: Generated report 'ut_SpikeDriver_SPI.restore.rpt'
+
+
++----------------------------------------+
+; Files Restored                         ;
++----------------------------------------+
+; File Name                              ;
++----------------------------------------+
+; qar_info.json                          ;
+; DE10-nano_Design Constraints.sdc       ;
+; SpikeDriver_SPI.v                      ;
+; assignment_defaults.qdf                ;
+; db/stp_SpikeDrive_01_auto_stripped.stp ;
+; mem/SPI_slv_dpRAM_256x16.v             ;
+; mem/SPI_slv_dpRAM_256x1_16x16.v        ;
+; mem/SPI_slv_dpRAM_64x8.v               ;
+; mem/dpRAM_256x16.qip                   ;
+; mem/dpRAM_256x16.v                     ;
+; mem/dpRAM_256x16_bb.v                  ;
+; mem/dpRAM_256x1_16x16.qip              ;
+; mem/dpRAM_256x1_16x16.v                ;
+; mem/dpRAM_256x1_16x16_bb.v             ;
+; mem/dpRAM_64x8.qip                     ;
+; mem/dpRAM_64x8.v                       ;
+; mem/dpRAM_64x8_bb.v                    ;
+; pll/snand_pll.cmp                      ;
+; pll/snand_pll.qip                      ;
+; pll/snand_pll.sip                      ;
+; pll/snand_pll.spd                      ;
+; pll/snand_pll.v                        ;
+; pll/snand_pll/snand_pll_0002.qip       ;
+; pll/snand_pll/snand_pll_0002.v         ;
+; pll/snand_pll_sim/snand_pll.vo         ;
+; stp_SpikeDrive_01.stp                  ;
+; ut_SpikeDriver_SPI.qpf                 ;
+; ut_SpikeDriver_SPI.qsf                 ;
+; ut_SpikeDriver_SPI.sdc                 ;
+; ut_SpikeDriver_SPI.v                   ;
++----------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

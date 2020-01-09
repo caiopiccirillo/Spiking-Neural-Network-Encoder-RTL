@@ -1,0 +1,68 @@
+// ------------------ modulo interface SpikeDriver --------------------------//
+//
+// apenas faz a interface com o módulo SpikeDriver_SPI
+// autor João Ranhel                 data: 2019_03_06
+//
+//
+//---------------------------------------------------------------------------//
+module ut_SpikeDriver_SPI
+  (
+  input CLK_50, nreset,                // clk e reset do sistema
+  input lsck, lmosi, lnss,             // input do SPI config memorias
+  output lmiso,                        // saída SPI config memorias
+  output [SZPFIRED-1:0] FOut,          // saída Parallel Firing OUt
+  output drck, dsck, dsdo,
+  output [31:0] TestPoint,
+  output [7:0] LED
+  );
+
+  parameter SZPFIRED = 32;             // tam do vetor saída paralela FiredOut
+  parameter ANODECOMM =1;              // display anodo comum
+  
+  wire [7:0] dec_point;                // vetor ponto decimal
+  assign dec_point = 8'b0;             // dp inicia zerado
+// fios para reset e clk
+  wire rst;
+  assign rst = ~nreset;              // reset para pll
+  wire clk_150M, clk_100M, clk_10M, clk_400K, clk_2K; 
+  reg clk_1K;
+  
+always @(posedge CLK_50)               // divisor p/ gerar 1 KHz
+  begin
+    clk_1K <= ~clk_1K;                 // divide clk_2k p/ gerar 1 KHz
+  end
+  wire trg;
+  assign LED[0] = clk_1K;
+  assign LED[1] = clk_2K;
+  assign LED[6] = clk_100M;
+  assign LED[7] = trg;
+  
+// instancia o módulo SpikeDriver_SPI
+SpikeDriver_SPI                        // este modulo com 256 nrds
+  SpkDrv_U1                            // nome do componente/instance
+  (
+  .clk10M      ( clk_10M ),            // clock 10MHz do PLL
+  .clk2K       ( clk_2K ),             // clock 2KHz preciso (do PLL)
+  .nreset      ( nreset),              // ↓reset ativo na descida p/ "0"
+  .lsck        ( lsck ),               // clk vem do mestre SPI
+  .lmosi       ( lmosi ),              // dado in "mosi" vem do mestre SPI
+  .lnss        ( lnss ),               // sel ativo em "0" vem do mestre SPI
+  .lmiso       ( lmiso ),              // saída p/ SPI "miso". Passa p/ OR
+  .FiredOut    ( FOut ),               // fios saída 32 canais FiredOut
+  .TestPoint   ( TestPoint ),
+  .trg         ( trg )
+  );
+
+snand_pll                              // instancia PLL no circuito
+  pll_U1                               // nome do comp
+  (
+  .refclk    ( CLK_50 ),               // refclk = CLK_50 MHz da placa
+  .rst       ( rst ),                  // reset.reset
+  .outclk_0  ( clk_150M ),             // outclk 150 MHz
+  .outclk_1  ( clk_100M ),             // outclk 100 MHz p/ stp
+  .outclk_2  ( clk_10M ),              // outclk 10  MHz
+  .outclk_4  ( clk_400K ),             // clk 400 KHz
+  .outclk_7  ( clk_2K )                // outclk 2 KHz p/ timer SpikeDriver
+  );
+
+endmodule

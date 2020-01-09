@@ -1,0 +1,47 @@
+Quartus Prime Archive log --	D:/FPGA_prjs/ut_SpikeDriver_SPI_03/ut_SpikeDriver_SPI_tmp_archive.qarlog
+
+Archive:	D:/FPGA_prjs/ut_SpikeDriver_SPI_03/ut_SpikeDriver_SPI_tmp_archive.qar
+Date:		Fri May 10 17:46:43 2019
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+	=========== Files Selected: ===========
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/DE10-nano_Design Constraints.sdc
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/SpikeDriver_SPI.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/assignment_defaults.qdf
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/db/stp_SpikeDrive_01_auto_stripped.stp
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/SPI_slv_dpRAM_256x16.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/SPI_slv_dpRAM_256x1_16x16.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/SPI_slv_dpRAM_64x8.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_256x16.qip
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_256x16.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_256x16_bb.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_256x1_16x16.qip
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_256x1_16x16.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_256x1_16x16_bb.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_64x8.qip
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_64x8.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/mem/dpRAM_64x8_bb.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll.cmp
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll.qip
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll.sip
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll.spd
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll/snand_pll_0002.qip
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll/snand_pll_0002.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/pll/snand_pll_sim/snand_pll.vo
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/stp_SpikeDrive_01.stp
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/ut_SpikeDriver_SPI.qpf
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/ut_SpikeDriver_SPI.qsf
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/ut_SpikeDriver_SPI.sdc
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/ut_SpikeDriver_SPI.v
+D:/FPGA_prjs/ut_SpikeDriver_SPI_03/ut_SpikeDriver_SPI_assignment_defaults.qdf
+	======= Total: 30 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri May 10 17:46:46 2019
+Source archive file:	D:/FPGA_prjs/ut_SpikeDriver_SPI_03/ut_SpikeDriver_SPI_tmp_archive.qar
+Archive was extracted into	D:/FPGA_prjs/ut_SpikeDriver_SPI_04/
+		 - successfully.

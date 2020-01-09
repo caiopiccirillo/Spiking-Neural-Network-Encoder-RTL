@@ -1,0 +1,203 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+# Date created = 13:35:54  May 01, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ut_SpikeDriver_SPI_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY ut_SpikeDriver_SPI
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:35:54  MAY 01, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_Y17 -to FOut[0]
+set_location_assignment PIN_Y18 -to FOut[1]
+set_location_assignment PIN_AK18 -to FOut[2]
+set_location_assignment PIN_AJ19 -to FOut[3]
+set_location_assignment PIN_AJ16 -to FOut[4]
+set_location_assignment PIN_AH17 -to FOut[5]
+set_location_assignment PIN_AE16 -to FOut[6]
+set_location_assignment PIN_AG17 -to FOut[7]
+set_location_assignment PIN_AA19 -to FOut[8]
+set_location_assignment PIN_AC20 -to FOut[9]
+set_location_assignment PIN_AJ20 -to FOut[10]
+set_location_assignment PIN_AK21 -to FOut[11]
+set_location_assignment PIN_AD20 -to FOut[12]
+set_location_assignment PIN_AE19 -to FOut[13]
+set_location_assignment PIN_AF21 -to FOut[14]
+set_location_assignment PIN_AG21 -to FOut[15]
+set_location_assignment PIN_AA21 -to FOut[16]
+set_location_assignment PIN_AC23 -to FOut[17]
+set_location_assignment PIN_AE23 -to FOut[18]
+set_location_assignment PIN_AF25 -to FOut[19]
+set_location_assignment PIN_AG25 -to FOut[20]
+set_location_assignment PIN_AH24 -to FOut[21]
+set_location_assignment PIN_AJ27 -to FOut[22]
+set_location_assignment PIN_AK28 -to FOut[23]
+set_location_assignment PIN_AJ26 -to FOut[24]
+set_location_assignment PIN_AH25 -to FOut[25]
+set_location_assignment PIN_AJ24 -to FOut[26]
+set_location_assignment PIN_AG23 -to FOut[27]
+set_location_assignment PIN_AH23 -to FOut[28]
+set_location_assignment PIN_AJ22 -to FOut[29]
+set_location_assignment PIN_AG22 -to FOut[30]
+set_location_assignment PIN_AF23 -to FOut[31]
+set_location_assignment PIN_AC18 -to lmiso
+set_location_assignment PIN_AD17 -to lmosi
+set_location_assignment PIN_AK16 -to lnss
+set_location_assignment PIN_AK19 -to lsck
+set_location_assignment PIN_AA14 -to nreset
+set_location_assignment PIN_AF14 -to CLK_50
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp_SpikeDrive_01.stp
+set_location_assignment PIN_Y19 -to LED[6]
+set_location_assignment PIN_W20 -to LED[7]
+set_location_assignment PIN_AG18 -to LED[0]
+set_location_assignment PIN_W16 -to LED[1]
+set_location_assignment PIN_V17 -to LED[2]
+set_location_assignment PIN_V18 -to LED[3]
+set_location_assignment PIN_W17 -to LED[4]
+set_location_assignment PIN_W19 -to LED[5]
+set_location_assignment PIN_AB17 -to TestPoint[0]
+set_location_assignment PIN_AD24 -to TestPoint[2]
+set_location_assignment PIN_AF26 -to TestPoint[4]
+set_location_assignment PIN_AH27 -to TestPoint[6]
+set_location_assignment PIN_AK29 -to TestPoint[7]
+set_location_assignment PIN_AK27 -to TestPoint[8]
+set_location_assignment PIN_AK26 -to TestPoint[9]
+set_location_assignment PIN_AJ25 -to TestPoint[10]
+set_location_assignment PIN_AK24 -to TestPoint[11]
+set_location_assignment PIN_AK23 -to TestPoint[12]
+set_location_assignment PIN_AK22 -to TestPoint[13]
+set_location_assignment PIN_AH22 -to TestPoint[14]
+set_location_assignment PIN_AF24 -to TestPoint[15]
+set_location_assignment PIN_AE24 -to TestPoint[3]
+set_location_assignment PIN_AG26 -to TestPoint[5]
+set_location_assignment PIN_AB21 -to TestPoint[1]
+set_global_assignment -name VERILOG_FILE ut_SpikeDriver_SPI.v
+set_global_assignment -name VERILOG_FILE SpikeDriver_SPI.v
+set_global_assignment -name VERILOG_FILE mem/SPI_slv_dpRAM_256x16.v
+set_global_assignment -name VERILOG_FILE mem/SPI_slv_dpRAM_256x1_16x16.v
+set_global_assignment -name VERILOG_FILE mem/SPI_slv_dpRAM_64x8.v
+set_global_assignment -name QIP_FILE mem/dpRAM_256x16.qip
+set_global_assignment -name QIP_FILE mem/dpRAM_256x1_16x16.qip
+set_global_assignment -name QIP_FILE mem/dpRAM_64x8.qip
+set_global_assignment -name SDC_FILE ut_SpikeDriver_SPI.sdc
+set_global_assignment -name SIGNALTAP_FILE stp_SpikeDrive_01.stp
+set_global_assignment -name QIP_FILE pll/snand_pll.qip
+set_global_assignment -name SIP_FILE pll/snand_pll.sip
+set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
+set_global_assignment -name SMART_RECOMPILE ON
+set_instance_assignment -name IO_STANDARD "2.5 V" -to CLK_50
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[31]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[30]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[29]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[28]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[27]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[26]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[25]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[24]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[23]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[22]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[21]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[20]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[19]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[18]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[17]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[16]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FOut[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LED[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to TestPoint[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to lmiso
+set_instance_assignment -name IO_STANDARD "2.5 V" -to lmosi
+set_instance_assignment -name IO_STANDARD "2.5 V" -to lnss
+set_instance_assignment -name IO_STANDARD "2.5 V" -to lsck
+set_instance_assignment -name IO_STANDARD "2.5 V" -to nreset
+set_instance_assignment -name IO_STANDARD "2.5 V" -to clk50
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pino[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pino[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pino[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pino[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pino[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pino[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pino[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to pino[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
